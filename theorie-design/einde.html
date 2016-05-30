@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Tom Smits">
+
+        <title>Het resultaat!</title>
+		
+		<link href="assets/css/fontello.css" rel="stylesheet">
+        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://bootflat.github.io/bootflat/css/bootflat.css" rel="stylesheet">
+		<link href="assets/css/icheck/all.css" rel="stylesheet">
+		<link href="assets/css/animate.min.css" rel="stylesheet">
+		<link href="assets/css/main.css" rel="stylesheet">
+		
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+		<nav class="navbar navbar-default animated fadeIn" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-target="#bs-example-navbar-collapse-3" data-toggle="collapse" type="button">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Theorie</a>
+				</div>
+				<div id="bs-example-navbar-collapse-3" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a class="icon-logout" href="login.html">Uitloggen</a>
+						</li>
+						
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+								<span class="icon-user"></span> Welkom, John Doe!
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu" role="menu">
+								<li>
+									<a href="statistieken.html">Statistieken</a>
+								</li>
+						
+								<li>
+									<a href="wachtwoord-wijzigen.html">Verander wachtwoord</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+        <div class="container">
+            <div class="row">
+				<div class="col-sm-12">
+					<div class="col-sm-offset-2 col-sm-8 box animated fadeIn">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title">Het resultaat!</h3>
+							</div>
+							<div class="panel-body"> 
+								<form id="div1"method="post">
+									<div class="col-sm-12">
+										<h4 class="text-center icon-thumbs-up">Geslaagd!</h4>
+										<div class="text-center">
+											<div class="chart" data-percent="92.2">
+												<span class="animated fadeIn">Percentage van score: 92.2%</span>
+											</div>
+										</div>
+										<h6 class="text-center"></h6>
+											
+										<table class="table score-table">
+											<thead>
+												<tr>
+													<th>Aantal correct <i class="icon-check"></i></th>
+												</tr>
+											</thead>
+											
+											<tbody>	
+												<tr>
+													<td><span class="answer-correct icon-small">59</span></td>
+												</tr>
+											</tbody>
+										</table>
+										
+										<table class="table score-table">
+											<thead>
+												<tr>
+													<th>Aantal incorrect <i class="icon-cancel icon-small"></i></th>
+												</tr>
+											</thead>
+											
+											<tbody>
+												<tr>
+													<td><span class="answer-incorrect icon-small">2</span></td>
+												</tr>
+											</tbody>
+										</table>
+										
+										<table class="table score-table">
+											<thead>
+												<tr>
+													<th>Aantal onbeantwoord</th>
+												</tr>
+											</thead>
+											
+											<tbody>
+												<tr>
+													<td>3</td>
+												</tr>
+											</tbody>
+										</table>
+										<div class="spacing">
+											<table class="table score-table">
+												<thead>
+													<tr>
+														<th>Vraag</th>
+														<th>Uw antwoord</th>
+														<th>Correcte antwoord</th>
+													</tr>
+												</thead>
+												
+												<tbody>
+													<tr>
+														<td>#1</td>
+														<td><span class="answer-incorrect">A</span></td>
+														<td><span class="answer-correct">B</span> <i class="icon-info-circled" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum Quintus: Est plane, Piso, ut dicis, inquit. Quod quidem nobis non saepe contingit. Quo igitur, inquit, modo? At iam decimum annum in spelunca iacet. Utrum igitur tibi litteram videor an totas paginas commovere? Sed ad illum redeo. Duo Reges: constructio interrete. At iam decimum annum in spelunca iacet. At Zeno eum non beatum modo, sed etiam divitem dicere ausus est."></i></td>
+													</tr>
+													
+													<tr>
+														<td>#4</td>
+														<td><span class="answer-incorrect">C</span></td>
+														<td><span class="answer-correct">A</span> <i class="icon-info-circled" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum Quintus: Est plane, Piso, ut dicis, inquit. Quod quidem nobis non saepe contingit. Quo igitur, inquit, modo? At iam decimum annum in spelunca iacet. Utrum igitur tibi litteram videor an totas paginas commovere? Sed ad illum redeo. Duo Reges: constructio interrete. At iam decimum annum in spelunca iacet. At Zeno eum non beatum modo, sed etiam divitem dicere ausus est."></i></td>
+													</tr>
+													
+													<tr>
+														<td>#26</td>
+														<td>-</td>
+														<td><span class="answer-correct">C</span> <i class="icon-info-circled" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum Quintus: Est plane, Piso, ut dicis, inquit. Quod quidem nobis non saepe contingit. Quo igitur, inquit, modo? At iam decimum annum in spelunca iacet. Utrum igitur tibi litteram videor an totas paginas commovere? Sed ad illum redeo. Duo Reges: constructio interrete. At iam decimum annum in spelunca iacet. At Zeno eum non beatum modo, sed etiam divitem dicere ausus est."></i></td>
+													</tr>
+													
+													<tr>
+														<td>#30</td>
+														<td>-</td>
+														<td><span class="answer-correct">A</span> <i class="icon-info-circled" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum Quintus: Est plane, Piso, ut dicis, inquit. Quod quidem nobis non saepe contingit. Quo igitur, inquit, modo? At iam decimum annum in spelunca iacet. Utrum igitur tibi litteram videor an totas paginas commovere? Sed ad illum redeo. Duo Reges: constructio interrete. At iam decimum annum in spelunca iacet. At Zeno eum non beatum modo, sed etiam divitem dicere ausus est."></i></td>
+													</tr>
+													
+													<tr>
+														<td>#55</td>
+														<td>-</td>
+														<td><span class="answer-correct">B</span> <i class="icon-info-circled" data-toggle="tooltip" data-placement="right" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum Quintus: Est plane, Piso, ut dicis, inquit. Quod quidem nobis non saepe contingit. Quo igitur, inquit, modo? At iam decimum annum in spelunca iacet. Utrum igitur tibi litteram videor an totas paginas commovere? Sed ad illum redeo. Duo Reges: constructio interrete. At iam decimum annum in spelunca iacet. At Zeno eum non beatum modo, sed etiam divitem dicere ausus est."></i></td>
+													</tr>
+													
+												</tbody>
+											</table>
+										</div>
+									</div>
+									<div class="col-md-8">
+										<div class="spacing">								
+											<a type="submit" id="submit" name="submit" class="btn btn-info btn-margin" role="button" href="main.html">
+												Terug naar hoofdmenu
+												<span class="icon-back"></span>
+											</a>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+		
+		<footer class="footer">
+			<div class="container">
+				<p class="text-muted text-center">© 2016 Theorie All Rights Reserved.</p>
+			</div>
+		</footer>
+			
+		<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+        <script src="https://bootflat.github.io/bootflat/js/icheck.min.js"></script>
+        <script src="https://bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>
+        <script src="https://bootflat.github.io/bootflat/js/jquery.fs.stepper.min.js"></script>
+		<script src="assets/js/selector.min.js"></script>
+		<script src="assets/js/jquery.easypiechart.min.js"></script>
+		
+		<script>$(document).ready(function(){$('input').iCheck({checkboxClass: 'icheckbox_flat-green',radioClass: 'iradio_flat-green'});});</script>
+		<script>$(function () { $('[data-toggle="tooltip"]').tooltip()})</script>
+		
+		<script type="text/javascript">
+			$(function() {
+				$('.chart').easyPieChart({
+					animate: 2000,
+					barColor: "#37bc9b",
+					trackColor: "#ddd",
+					scaleColor: null,
+					lineWidth: 9,
+					lineCap: "square",
+					size: 180
+				});
+			});
+		</script>		
+	</body>
+</html>

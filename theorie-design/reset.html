@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Tom Smits">
+
+        <title>Inloggen</title>
+		
+		<link href="assets/css/fontello.css" rel="stylesheet">
+        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://bootflat.github.io/bootflat/css/bootflat.css" rel="stylesheet">
+		<link href="assets/css/icheck/all.css" rel="stylesheet">
+		<link href="assets/css/animate.min.css" rel="stylesheet">
+		<link href="assets/css/main.css" rel="stylesheet">
+		
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>		
+        <div class="container">
+            <div class="row">
+				<div class="col-sm-12">
+					<div class="col-sm-offset-2 col-sm-8 box animated zoomInRight">
+						<div class="panel panel-info">
+							<div class="panel-heading">
+								<h3 class="panel-title">Welkom! - Wachtwoord vergeten</h3>
+							</div>
+							<div class="panel-body"> 
+								<form id="div1"method="post">
+									<div class="col-sm-12">
+										<div class="form-group">
+											<div class="input-group"><span class="info-green input-group-addon"><i class="icon-mail"></i></span>
+												<input type="text" name="email" placeholder="E-mail" id="email" class="form-control"/>
+											</div>
+										</div>
+									</div>
+
+									<div class="col-sm-7">
+										<a type="submit" id="submit" name="submit" class="btn btn-info" role="button" href="login.html">
+											<span class="icon-back"></span>
+											Terug
+										</a>
+										
+										<a type="submit" id="submit" name="submit" class="btn btn-info" role="button" href="#">
+											<span class="icon-arrows-ccw"></span>
+											Stuur een wachtwoord reset!
+										</a>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+		
+		<footer class="footer">
+			<div class="container">
+				<p class="text-muted text-center">© 2016 Theorie All Rights Reserved.</p>
+			</div>
+		</footer>
+			
+		<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+        <script src="https://bootflat.github.io/bootflat/js/icheck.min.js"></script>
+        <script src="https://bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>
+        <script src="https://bootflat.github.io/bootflat/js/jquery.fs.stepper.min.js"></script>
+						
+		<script>$(document).ready(function(){$('input').iCheck({checkboxClass: 'icheckbox_flat-green',radioClass: 'iradio_flat-green'});});</script>
+		
+	</body>
+</html>
